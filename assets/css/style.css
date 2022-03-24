@@ -1,0 +1,169 @@
+/* Disables browser default margins */
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.commands {
+    position: absolute;
+    color: white;
+    top: 40vh;
+    left: 1.5vw;
+    font-size: 3em;
+}
+
+.command:hover {
+    color: darkgray;
+}
+
+.commands-phone {
+    display: none;
+    z-index: 99;    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.slideitem {
+    width: 30px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.slideicon {
+    padding-top: 6px;
+}
+
+/* Landing page style */
+
+.landpage {
+    background: no-repeat url(../img/landing-page.jpg) center;
+    height: 100vh;
+}
+
+    .landpage .namebox {
+        background-color: rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.3);
+        margin-top: 40vh;
+    }
+
+/* Float animation on the slide icon */
+    .landicon {
+        font-size: 2rem;
+        transform: translatey(5px);
+        animation: float 2s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translatey(10px);
+        }
+        50% {
+            transform: translatey(0px);
+        }
+        100% {
+            transform: translatey(10px);
+        }
+    }
+
+/* Typo Style  */
+
+h1, h2 {
+    font-family: 'Play', sans-serif;
+}
+
+/* First page style */
+
+.vue {
+    background: no-repeat url(../img/first-page.jpg);
+    background-position: center -200px;
+    position: absolute;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.vue1 {
+    background: no-repeat url(../img/first-page.jpg);
+    background-position: center -200px;
+    z-index: 3;
+}
+
+.vue2 {
+    background: no-repeat url(../img/second-page.jpg);
+    background-position: center -200px;
+    z-index: 2;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.5s background-color;
+}
+
+.box:hover {
+    background-color: rgba(4, 4, 4, 0.65);
+    transition: ease-in-out 0.5s;
+}   
+
+.bar {
+    width: 1px;
+    height: 70vh; 
+}
+
+.logo {
+    height: 1em;
+}
+
+/* Graphique des compétences */
+
+.htmlcss {
+    background: linear-gradient(90deg, #f16524 50%, #2965f1 50%);
+    width: 0%;
+}
+
+.bootstrap {
+    background-color: #533C78;
+    width: 0%;
+}
+
+.js {
+    background-color: #E8B824;
+    width: 0%;
+}
+
+.jquery {
+    background-color: #f1ee20;
+    width: 0%;
+}
+
+.vuejs {
+    background-color: #3FB984;
+    width: 0%;
+}
+
+.wp {
+    background-color: #207196;
+    width: 0%;
+}
+
+.php {
+    background-color: #787CB4;
+    width: 0%;
+}
+
+.sql {
+    background-color: red;
+    width: 0%;
+}
+
+.softskills {
+    list-style-image: url(../img/light.svg);
+}
+
+.degrees {
+    height: 88vh;
+}
