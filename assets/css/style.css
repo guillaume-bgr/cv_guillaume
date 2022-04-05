@@ -160,6 +160,11 @@ h1, h2 {
     width: 0%;
 }
 
+.symfony {
+    background-color: rgb(53, 53, 53);
+    width: 0%;
+}
+
 .softskills {
     list-style-image: url(../img/light.svg);
 }

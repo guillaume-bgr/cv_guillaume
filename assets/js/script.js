@@ -16,13 +16,13 @@ $('.landpage').click(function() {
                 width: '90%'
             }, 1500);
             $('.bootstrap').animate({
-                width: '65%'
+                width: '85%'
             }, 1500);
             $('.js').animate({
-                width: '80%'
+                width: '85%'
             }, 1500);
             $('.jquery').animate({
-                width: '80%'
+                width: '85%'
             }, 1500);
             $('.vuejs').animate({
                 width: '60%'
@@ -31,10 +31,13 @@ $('.landpage').click(function() {
                 width: '60%'
             }, 1500);
             $('.php').animate({
-                width: '70%'
+                width: '95%'
             }, 1500);
             $('.sql').animate({
-                width: '50%'
+                width: '90%'
+            }, 1500);
+            $('.symfony').animate({
+                width: '80%'
             }, 1500);
         });      
 });
